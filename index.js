@@ -9,10 +9,11 @@ function happyHolidaysTo(name){
 }
 happyHolidaysTo('you')
 
-function happyHolidaysTo(holiday, name){
+function happyHolidayTo(holiday, name){
 return `Happy ${holiday}, ${name}!`
 }
-happyHolidaysTo('Easter', 'jesus')
+happyHolidayTo('Easter', 'jesus')
+
 function holidayCountdown(days, holiday){
 return `It's ${days} days until ${holiday}!`
 }
